@@ -1,1 +1,3 @@
-qwre
+public class Vova{
+  
+}

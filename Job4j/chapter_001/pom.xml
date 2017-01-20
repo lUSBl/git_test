@@ -1,0 +1,24 @@
+<project>
+        <modelVersion>4.0.0</modelVersion>
+	<groupId>ru.job4j</groupId>
+	<artifactId>chapter_001</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>    
+
+    <parent>
+        <groupId>ru.job4j</groupId>
+        <artifactId>Job4j</artifactId>
+        <version>1.0</version>
+    </parent>
+
+<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
